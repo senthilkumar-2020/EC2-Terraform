@@ -33,6 +33,9 @@ jobs:
       # 4️⃣ Terraform Init
       - name: Terraform Init
         run: terraform init
+        
+      - name: Terraform State List
+        run: terraform state list
 
       # 5️⃣ Terraform Destroy
       - name: Terraform Destroy
